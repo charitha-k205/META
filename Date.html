@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="./index.html">
+    <label for="email">Email Id:</label>
+    <input type="text" name="email" id="email" pattern="[a-zA-Z0-9.*&$%#]+@gmail\.com" placeholder="name@gmail.com" required><br><br>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" pattern="\+91\s[6-9][0-9]{9}" placeholder="+91 XXXXXXXXXX" required><br><br>
+    
+    <label for="date">DATE:</label>
+
+    <input type="text" id="date" pattern="([0-9]{4})-(0[1-9]|[12][0-9]|3[0-1])-(0[1-9]|1[0-2])" placeholder="yyyy-dd-mm"><br><br>
+    <input type="submit" value="submit">
+    </form>
+
+</body>
+</html>
+ 
